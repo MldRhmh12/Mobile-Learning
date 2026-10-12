@@ -1,0 +1,23 @@
+$kind: http-request
+url: http://localhost:3000/api/posts
+method: POST
+body:
+  type: formdata
+  content:
+    - type: file
+      key: image
+      src:
+        - postman-cloud:///1f1c093f-2d7c-4af0-974c-ff542e9522b5
+      description: ""
+      disabled: false
+    - type: text
+      key: title
+      value: Belajar React Native dan Express
+      description: ""
+      disabled: false
+    - type: text
+      key: content
+      value: Belajar React Native dan Express
+      description: ""
+      disabled: false
+order: 2241738318681722
